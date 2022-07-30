@@ -17,7 +17,7 @@
     display: flex;
     position: relative;
     justify-content: space-evenly;
-    margin-left: 81%;
+    margin-left: 76%;
     gap: 24px;
 }
 
@@ -41,7 +41,8 @@
         width: 150px;
         padding: 20px 0px;
     }
-    .ImageWrapper{
+
+    .ImageWrapper {
         justify-content: center;
         display: flex;
 
@@ -81,3 +82,28 @@
     }
 }
 
+@media only screen and (min-width: 1920px) {
+    .header_Wrapper {
+        max-width: 100%;
+    }
+
+    .login_form {
+        padding: 20px 181px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .ImageWrapper {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .ButtonWrap {
+        margin-left: 81%;
+        display: flex;
+        position: relative;
+        justify-content: space-evenly;
+        gap: 24px;
+    }
+}
