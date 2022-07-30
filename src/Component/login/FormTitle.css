@@ -1,0 +1,13 @@
+.Form_Title_Wrap {
+    text-align: center;
+}
+.Form_Title_Wrap h4 {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 6px;
+}
+
+.Form_Title_Wrap p {
+    margin-top: 0px;
+    font-size: 14px;
+}

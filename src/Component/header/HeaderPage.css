@@ -1,0 +1,83 @@
+.header_Wrapper {
+    display: flex;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
+}
+
+.Web_Icon {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.Web_Icon_dot {
+    font-weight: 800;
+    color: #ff9100;
+}
+
+.ButtonWrap {
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+    margin-left: 81%;
+    gap: 24px;
+}
+
+.ImageWrapper {
+    display: flex;
+}
+
+.login_form {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px 9%;
+}
+
+@media (min-width: 280px) and (max-width: 653px) {
+    .header_Wrapper {
+        max-width: 100%;
+    }
+
+    .login_form {
+        width: 150px;
+        padding: 20px 0px;
+    }
+    .ImageWrapper{
+        justify-content: center;
+        display: flex;
+
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .header_Wrapper {
+        max-width: 100%;
+    }
+
+    .login_form {
+        padding: 20px 2px;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 1000px) {
+    .header_Wrapper {
+        max-width: 100%;
+    }
+
+    .ImageWrapper {
+        display: flex;
+        gap: 40px;
+    }
+
+    .login_form {
+        padding: 20px 0px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .ButtonWrap {
+        margin-left: 59%;
+    }
+}
+

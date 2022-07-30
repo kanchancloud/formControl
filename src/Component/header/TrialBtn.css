@@ -1,0 +1,12 @@
+.free_trail_Button {
+    border-radius: 2px;
+    background: #0e2b41;
+    color: white ;
+    font-weight: 500;
+    font-size: 14px;
+}
+@media only screen and (max-width: 600px) {
+    .free_trail_Button {
+        display: none;
+    }
+}

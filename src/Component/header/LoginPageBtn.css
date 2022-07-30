@@ -1,0 +1,14 @@
+.Login_button {
+    border-radius: 2px;
+    background-color: #e78d1c;
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 0 45px;
+    height: 32px;
+}
+@media only screen and (max-width: 600px) {
+    .Login_button {
+        display: none;
+    }
+}

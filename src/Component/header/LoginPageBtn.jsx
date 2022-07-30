@@ -1,7 +1,8 @@
 import React from 'react';
 import {Button} from "antd";
+import "./LoginPageBtn.css";
 
-const LoginPage = () => {
+const LoginPageBtn = () => {
     return (
         <div>
             <Button type="submit" className="Login_button">Login</Button>
@@ -9,4 +10,4 @@ const LoginPage = () => {
     );
 };
 
-export default LoginPage;
+export default LoginPageBtn;

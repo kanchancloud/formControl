@@ -1,0 +1,64 @@
+.FormWrapper {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+.Form_input {
+    width: 300px;
+}
+
+.Forget_pass {
+    float: right;
+    color: black;
+
+}
+
+@media (max-width: 200px) and (max-width: 600px) {
+    .Form_input {
+        width: 208px;
+    }
+
+    .Form_CheckBox {
+        font-size: 10px !important;
+    }
+
+    .Form_CheckBox_Text {
+        font-size: 10px;
+        height: 12px;
+        width: 12px;
+    }
+    .Forget_pass{
+        Padding: 5px 0px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .FormWrapper {
+        margin: 100px 35px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Alegreya Sans', sans-serif;
+    }
+    .Forget_pass{
+        Padding: 5px 0px;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 1000px) {
+    .Form_input {
+        width: 300px;
+    }
+
+    .FormWrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .Forget_pass{
+        Padding: 5px 0px;
+    }
+}

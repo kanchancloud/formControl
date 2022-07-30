@@ -1,6 +1,7 @@
 import React from 'react';
+import "./FormBtnPage.css";
 
-const FormButtonPage = () => {
+const FormBtnPage = () => {
     return (
         <div className="Login_Button_Wrap">
             <button className="Login_Button">Login</button>
@@ -8,4 +9,4 @@ const FormButtonPage = () => {
     );
 };
 
-export default FormButtonPage;
+export default FormBtnPage;
