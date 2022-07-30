@@ -81,29 +81,3 @@
         margin-left: 59%;
     }
 }
-
-/*@media only screen and (min-width: 1920px) {*/
-/*    .header_Wrapper {*/
-/*        max-width: 100%;*/
-/*    }*/
-
-/*    .login_form {*/
-/*        !*padding: 20px 170px;*!*/
-/*        align-items: center;*/
-/*        justify-content: center;*/
-/*    }*/
-
-/*    .ImageWrapper {*/
-/*        display: flex;*/
-/*        justify-content: flex-end;*/
-/*        align-items: center;*/
-/*    }*/
-
-/*    .ButtonWrap {*/
-/*        margin-left: 81%;*/
-/*        display: flex;*/
-/*        position: relative;*/
-/*        justify-content: space-evenly;*/
-/*        gap: 24px;*/
-/*    }*/
-/*}*/
