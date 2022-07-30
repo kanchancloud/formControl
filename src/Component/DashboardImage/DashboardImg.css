@@ -1,6 +1,6 @@
 .Image {
     height: calc(100vh - 64px);
-    width: calc(100vw - 63%);
+    width: calc(100vw - 64%);
 }
 
 @media only screen and (max-width: 600px) {
@@ -21,6 +21,8 @@
     .Image {
         height: 1016px;
         width: 1275px;
+        /*height: calc(100vh - 66px);*/
+        /*width: calc(100vw - 50%);*/
     }
 
 }
